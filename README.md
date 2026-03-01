@@ -2,6 +2,8 @@
 
 SK8707のセンサーをI2Cバス経由で読み取れるようにしたモジュールです。元のモジュールに比べるとアクティブ電流は1/6、待機電流は1/10くらいになっています。
 
+[ハードウェア](https://github.com/sekigon-gonnoc/low-power-pointing-stick)
+
 ## デバイスツリーの例
 
 ```dtsi
