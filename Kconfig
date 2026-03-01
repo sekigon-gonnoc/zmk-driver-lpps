@@ -1,0 +1,5 @@
+menuconfig LPPS
+    bool "low power pointing stick"
+  select I2C
+    help
+      Enable LPPS

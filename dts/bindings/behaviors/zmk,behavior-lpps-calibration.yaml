@@ -1,0 +1,5 @@
+description: Mod Morph Behavior
+
+compatible: "zmk,behavior-lpps-calibration"
+
+include: zero_param.yaml

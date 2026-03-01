@@ -1,0 +1,6 @@
+if(CONFIG_LPPS)
+    zephyr_library()
+    zephyr_library_sources(src/lpps.c)
+    zephyr_library_sources(src/behaviors/behavior_lpps_calibration.c)
+    zephyr_library_include_directories(${CMAKE_SOURCE_DIR}/include)
+endif()

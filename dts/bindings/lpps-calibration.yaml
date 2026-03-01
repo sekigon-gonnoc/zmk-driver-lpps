@@ -1,0 +1,21 @@
+# Copyright 2025 sekigon-gonnoc
+# SPDX-License-Identifier: GPL-2.0 or later
+
+description: Low power trackpoint driver
+
+compatible: "lpps"
+
+include: i2c-device.yaml
+
+properties:
+  irq-gpios:
+    type: phandle-array
+    required: true
+    description:
+      GPIO connected to the motion pin, active low.
+
+  power-gpios:
+    type: phandle-array
+    required: false
+    description:
+      GPIO connected to the power control pin.
